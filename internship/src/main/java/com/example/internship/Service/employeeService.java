@@ -4,14 +4,11 @@ import com.example.internship.models.Employee;
 import com.example.internship.repository.Employeerepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Service
-public class HelloWorldService {
+public class employeeService {
     @Autowired
     Employeerepo emprepo;// bean or object is a emprepo
 

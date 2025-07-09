@@ -1,6 +1,6 @@
 package com.example.internship.Controller;
 
-import com.example.internship.Service.HelloWorldService;
+import com.example.internship.Service.employeeService;
 import com.example.internship.models.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -10,10 +10,10 @@ import java.util.List;
 
 @RestController
 //@RequestMapping("/employee")
-public class HelloWorldController {
+public class EmployeeController {
 
     @Autowired
-    private HelloWorldService hws;
+    private employeeService hws;
     @PreAuthorize("hasAnyRole('ADMIN','USER')")
     @GetMapping("/")
     public String router(){
