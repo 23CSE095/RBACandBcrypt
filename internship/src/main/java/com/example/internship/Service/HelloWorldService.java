@@ -44,10 +44,10 @@ public class HelloWorldService {
     }
 
 
-    public String deleteemployees() {
-        emprepo.deleteAll();
-        return "deleted all employees detail";
-    }
+//    public String deleteemployees() {
+//        emprepo.deleteAll();
+//        return "deleted all employees detail";
+//    }
 
 
 
